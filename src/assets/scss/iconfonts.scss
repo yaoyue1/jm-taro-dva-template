@@ -1,0 +1,39 @@
+/**
+ * Component:	Iconfonts
+ * Description:	icon class
+ * Time: 2018-11-13
+*/
+@import "./variables";
+
+.#{$prefix} {
+  &-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center center;
+
+    &-question-grey {
+      width: 30rpx;
+      height: 30rpx;
+      background-image: url("https://img01.fxqifu.com/cd0aefba6a0d68e4fb4215419779199c?x-oss-process=image/quality,q_80");
+    }
+
+    &-arrow-right {
+      width: 16rpx;
+      height: 16rpx;
+      background-image: url("https://img01.fxqifu.com/6483122b73476d38a8017a399c8246f7?x-oss-process=image/quality,q_80");
+    }
+
+    &-love-red {
+      width: 28rpx;
+      height: 26rpx;
+      background-image: url("https://img01.fxqifu.com/ad5fbd992f971bc8d8cb49ca592af324?x-oss-process=image/quality,q_80");
+    }
+
+    &-love-grey {
+      width: 28rpx;
+      height: 26rpx;
+      background-image: url("https://img01.fxqifu.com/d7d727374bb4a0706684b308120c918f?x-oss-process=image/quality,q_80");
+    }
+  }
+}

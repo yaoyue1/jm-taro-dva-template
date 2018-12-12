@@ -1,0 +1,6 @@
+dist/
+.temp/
+node_modules/
+project.config.json
+# src/images/
+pictures

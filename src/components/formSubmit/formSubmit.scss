@@ -1,0 +1,22 @@
+.report-button {
+  background: transparent;
+  border: none;
+  height: auto;
+  border-radius: 0;
+  overflow: visible;
+  font-size: inherit;
+  text-align: inherit;
+  line-height: inherit;
+  border-radius: inherit;
+  padding: 0;
+}
+
+.report-button:after {
+  display: none;
+}
+
+.form-wrap {
+  height: inherit;
+  width: 750px;
+  height: 1206px;
+}
